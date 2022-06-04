@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+.section-heading {
+    
+    font-family: 'Roboto', sans-serif ;
+    font: Roboto !important;
+    font-size: 112px;
+    font-weight: 300;
+
+}
+
+.section-heading {
+    font-size: 80px;
+    font-weight: 300;
+}
+
+#sub {
+    position: relative;
+    top: 140px;
+}
+
+#sub1 {
+    position: relative;
+    left: 120px;
+}
+
+
+.section-heading-pyramid {
+    
+    font-family: 'Poppins', sans-serif;
+    font: Roboto !important;
+    font-size: 50px;
+    font-weight: 550;
+
+
+}
+
+.section-subheading-pyramid {
+    
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 32px;
+    font-weight: 100;
+
+}
+
+.section-subheading-pyramid-sam {
+    font-family: 'La Belle Aurore', cursive;
+    float: right;
+    font-size: 32px;
+    font-weight: 100;
+
+}
+
+#aboutsamrow {
+
+    margin-bottom: -200px;
+}
