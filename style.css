@@ -37,7 +37,7 @@ body {
 }
 
 
-@media screen and (max-width: 950px){
+@media only screen and (max-width: 800px){
 
   .nav-item{
   position: relative;
@@ -55,6 +55,23 @@ body {
 
 /* Headings */
 
+
+/* mantracards */
+
+#mantracards {
+  width: 1400px;
+  height:480px;
+  overflow: hidden;
+}
+
+
+@media only screen and (min-width: 400px) 
+{
+  #mantracards {
+    width: 100%;
+  }
+
+}
 
 
 /* Sections */
@@ -112,14 +129,89 @@ section:nth-child(3) {
   justify-content: space-around;
   align-items: center;
   flex-wrap: no-wrap;
-  
 }
+
+
+@media only screen and (min-device-width: 400px) and (max-device-width: 850px)
+{
+  .pyramid {
+    flex-wrap: wrap;
+    height: 1070px;
+  }
+  .sam{
+    flex-wrap: wrap;
+    height: 1070px;
+    justify-content: space-between;
+  }
+
+  #samimageid {
+    height: 30%;
+    width: 50%;
+    
+  }
+
+  #samimage {
+    height:100%;
+  }
+
+  #cred {
+    height: 120px;
+  }
+
+  #header-banner {
+    position: relative;
+    right: 70px;
+    font-size: 1.5rem;
+  }
+
+  .navbar {
+    height: 12.5%;
+  }
+
+  #logo1
+  {
+    height: 200px;
+    width: 100%;
+  }
+  .navbar-toggler-icon {
+    height: 100px;
+    width: 60px;
+  } 
+
+  #navbar-nav {
+    height: 200px;
+  }
+}
+
+
+
 
 #pyramidimage {
 height: 650px;
 width: 650px;
 padding: 30px;
 }
+
+
+#samimage {
+  height: 590px;
+  width: 480px;
+  padding: 50px;
+  }
+
+  .sam {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: no-wrap;
+    padding: 0;
+  }
+
+  #cred {
+    height: 120px;
+  }
+
 
 #logo {
 top: -13px;
@@ -147,7 +239,7 @@ body {
 .clipped {
   clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
 }
-@media screen and (max-width: 650px){
+@media only screen and (max-width: 650px){
   .headline {
     left: 20px;
   } 
