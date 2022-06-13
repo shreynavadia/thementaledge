@@ -23,6 +23,17 @@
 <script src="https://kit.fontawesome.com/cfe8b71ced.js" crossorigin="anonymous"></script>
 <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 
+<script>
+  $(document).ready(function () {
+    $(document).click(function (event) {
+        var clickover = $(event.target);
+        var _opened = $(".navbar-collapse").hasClass("navbar-collapse in");
+        if (_opened === true && !clickover.hasClass("navbar-toggle")) {
+            $("button.navbar-toggle").click();
+        }
+    });
+});
+</script>
 
 
 
@@ -39,16 +50,16 @@
   
     <img id="logo1"  src="samprofile\logo.png" alt="logo" height="110px" width="190px" >
   </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
-  <span class="navbar-toggler-icon"></span>
+  <span class="navbar-toggler-icon" style=" width: 60px; height: 60px;"></span>
   </button>
   
   
   <div class="collapse navbar-collapse" id="navbar4">
   <ul class="navbar-nav mr-auto pl-lg-4">
-  <li class="nav-item px-lg-2"> <a class="nav-link" href="#home"> <span class="d-inline-block d-lg-none icon-width"><i class="fas fa-home"></i></span>Home </a> </li>
-  <li class="nav-item px-lg-2"> <a class="nav-link" href="#about-sam-kachru"><span class="d-inline-block d-lg-none icon-width"><i class="far fa-user"></i></span> About Sam </a> </li>
-  <li class="nav-item px-lg-2"> <a class="nav-link" href="#sams-15-mantras"><span class="d-inline-block d-lg-none icon-width"><i class="fa-solid fa-list-check"></i></span> 15 Mantras </a> </li>
-  <li class="nav-item px-lg-2"> <a class="nav-link" href="#3"><span class="d-inline-block d-lg-none icon-width"><i class="fa-solid fa-video"></i></span> Sam's Videos </a> </li>
+  <li class="nav-item px-lg-2"> <a class="nav-link" href="#home"> <span class="d-inline-block d-lg-none icon-width"><i class="fas fa-home"></i></span>&nbsp; Home </a> </li>
+  <li class="nav-item px-lg-2"> <a class="nav-link" href="#about-sam-kachru"><span class="d-inline-block d-lg-none icon-width"><i class="far fa-user"></i></span>&nbsp; About Sam </a> </li>
+  <li class="nav-item px-lg-2"> <a class="nav-link" href="#sams-15-mantras"><span class="d-inline-block d-lg-none icon-width"><i class="fa-solid fa-list-check"></i></span>&nbsp; 15 Mantras </a> </li>
+  <li class="nav-item px-lg-2"> <a class="nav-link" href="#3"><span class="d-inline-block d-lg-none icon-width"><i class="fa-solid fa-video"></i></span>&nbsp; Sam's Videos </a> </li>
   </ul>
 
 
@@ -91,10 +102,10 @@
       <h1 class="display-4 my-4 font-weight-bold" id="header-banner">  Sports Psychology & <span style="color: #dc4b4b;"> Sports Astrology
       </span></h1>
 
-      <a href="https://wa.link/mgqi38" class="btn px-5 py-3 text-white mt-3 mt-sm-0" id="header-banner" style="border-radius: 30px; background-color: #1a365e;"> <i class="fa-solid fa-building-circle-check"></i>
+      <a href="https://wa.link/cvifib" class="btn px-5 py-3 text-white mt-3 mt-sm-0" id="header-banner" style="border-radius: 30px; background-color: #1a365e;"> <i class="fa-solid fa-building-circle-check"></i>
          &nbsp; In person session </a>
       <br><br> 
-      <a href="https://wa.link/mgqi38" class="btn px-5 py-3 text-white mt-3 mt-sm-0" id="header-banner" style="border-radius: 30px; background-color: #1a365e;"> <i class="fa-solid fa-video"> </i>
+      <a href="https://wa.link/cvifib" class="btn px-5 py-3 text-white mt-3 mt-sm-0" id="header-banner" style="border-radius: 30px; background-color: #1a365e;"> <i class="fa-solid fa-video"> </i>
         &nbsp; Book online session</a>
         <br><br> 
         <a href="https://www.youtube.com/channel/UCgOEX_K5u1o8j5NV2emFd_g" class="btn px-5 py-3 text-white mt-3 mt-sm-0" id="header-banner" style="border-radius: 30px; background-color: #1a365e;"> <i class="fa-solid fa-circle-play"></i> 
@@ -215,7 +226,7 @@
                   <div class="single-cta">
                       <i class="fa fa-whatsapp"> </i>
                       <div class="cta-text">
-                          <h4> <a id="footericonlinks" href="https://wa.link/mgqi38">  Whatsapp Us </a> </h4>
+                          <h4> <a id="footericonlinks" href="https://wa.link/cvifib">  Whatsapp Us </a> </h4>
                           <span> +91-9810101882 </span>
                       </div>
                   </div>
