@@ -147,6 +147,7 @@ section:nth-child(3) {
   justify-content: space-around;
   align-items: center;
   flex-wrap: no-wrap;
+  background-image: url("https://mickeyarthurelcc.com/wp-content/uploads/2021/10/main_back.jpg");
 }
 
 
@@ -166,6 +167,8 @@ section:nth-child(3) {
     height: 1070px;
     justify-content: space-between;
   }
+
+  
 
   #samimageid {
     height: 30%;
@@ -204,7 +207,8 @@ section:nth-child(3) {
 
 #icons {
   position: relative;
-  top: 70px;
+  top: 0px;
+  size: 0.9vh;
 }
 
 .clipped {
@@ -242,6 +246,13 @@ section:nth-child(3) {
     font-size: 1.7rem;
   }
 
+  #pyramidimageid {
+    object-fit: cover;
+    width: 120%;
+    padding: 0px;
+  }
+
+ 
 
 }
 
@@ -253,10 +264,11 @@ section:nth-child(3) {
 
 
 #pyramidimage {
-height: 650px;
-width: 650px;
-padding: 30px;
+height: 30%;
+width: 80%;
+padding: 40px;
 }
+
 
 
 #samimage {
@@ -295,6 +307,12 @@ section:nth-child(5) {
   background:  #000000;
   font-size: 5rem;  
   color: #ffffff;
+}
+
+#footericonlinks {
+
+  color: white;
+  text-decoration: none;
 }
 
 
